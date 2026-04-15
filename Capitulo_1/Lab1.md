@@ -15,12 +15,7 @@ Al finalizar la práctica, serás capaz de:
 
 ## Credenciales para usar en el registro de N8N:
 
-| Nombre | Correo | Contraseña |
-| --- | --- | ---|
-|  | estudiante1@netec.com | N3t3c*+ |
-|  | estudiante2@netec.com | N3t3c*+ |
-|  | estudiante3@netec.com | N3t3c*+ |
-|  | estudiante4@netec.com | N3t3c*+ |
+Consúltalas con tu instructor.
 
 ## Instrucciones 
 
@@ -38,9 +33,7 @@ Paso 2.	Ejecuta el siguiente comando para verificar que Docker esté instalado y
 docker --version
 ```
 **Resultado esperado:**
-```
 Docker version 29.2.0, build abc123
-```
 
 Paso 3. Ejecuta el siguiente comando para verificar que Python esté instalado y su versión.
 ```powershell
@@ -48,9 +41,7 @@ python –version
 ```
 
 **Resultado esperado:**
-```
 Python 3.11.6
-```
 
 Paso 4.	Ejecuta el siguiente comando para verificar que VSC esté instalado y su versión.
 ```powershell
@@ -58,9 +49,7 @@ code --version
 ```
 
 **Resultado esperado:**
-```
 1.87.2 a3f6c6d...
-```
 
 Paso 5.	Crea el directorio del proyecto, en el explorador de archivos abre Documents, haz clic derecho, luego selecciona New Folder y cambia el nombre por: **N8NProject**.
 
@@ -209,7 +198,7 @@ Paso 3.	En el buscador escribe: ```Webhook```. Selecciona el nodo Webhook
 
 Paso 4.	Configura el Webhook. Inicialmente, cambia el método de GET a POST.
 
-Paso 5.	En el campo Path reemplaza el contenido por defecto a: credit-request
+Paso 5.	En el campo Path reemplaza el contenido por defecto a: ```credit-request```
 
 Paso 6.	Verifica la URL de prueba generada, será algo como:
 **http://localhost:5678/webhook-test/credit-request**
@@ -339,9 +328,9 @@ uvicorn app:app --reload --port 8000
 ```
 
 **Resultado esperado:**
-```
+
 Uvicorn running on http://127.0.0.1:8000
-```
+
 
 Paso 7.	💡¿Cuál de los siguientes scripts será validado correctamente? ¿Por qué?
 
@@ -666,7 +655,7 @@ Paso 16.	Valida nuevamente usando Postman, y revisa que ahora tengas también el
 ![ImageLab](../images/Picture60.png)
 ![ImageLab](../images/Picture61.png)
 
- 
+> 🎯**DESAFÍO OPCIONAL:** Construye un nodo en n8n para que el resultado se visualice en Postman. 
 
 
 
