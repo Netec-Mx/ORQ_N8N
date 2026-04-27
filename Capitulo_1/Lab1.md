@@ -6,6 +6,10 @@ Al finalizar la práctica, serás capaz de:
 - **Integrar** APIs REST externas y servicios en Python.
 - **Transformar** y combinar datos para generar respuestas dinámicas.
 
+## Objetivo Visual
+
+![diagrama1](../images/img1.png)
+
 ## Duración aproximada:
 - 90 minutos.
 
