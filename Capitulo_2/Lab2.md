@@ -1,4 +1,4 @@
-# Crear lujo automatizado: formulario → análisis con modelo LLM (Bedrock o Foundry) → almacenamiento en base de datos local
+# Práctica 2: Flujo automatizado: formulario → análisis con modelo LLM (Bedrock o Foundry) → almacenamiento en base de datos local
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
