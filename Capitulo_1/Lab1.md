@@ -1,14 +1,10 @@
-# Crear un flujo webhook → API externa → transformación → respuesta JSON
+# Práctica 1: Crear un flujo webhook → API externa → transformación → respuesta JSON
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
 - **Construir** un flujo automatizado con webhooks en n8n.
 - **Integrar** APIs REST externas y servicios en Python.
 - **Transformar** y combinar datos para generar respuestas dinámicas.
-
-## Objetivo Visual 
-
-![diagrama1](../images/img1.png)
 
 ## Duración aproximada:
 - 90 minutos.
